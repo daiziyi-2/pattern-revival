@@ -15,7 +15,15 @@ https://github.com/daiziyi-2/pattern-revival/tree/main/skills/pattern-revival
 
 也可将仓库中的 `skills/pattern-revival` 文件夹复制到目标工具的技能目录。
 Codex 的默认用户技能位置为 `~/.codex/skills/pattern-revival`。
-仓库当前为私有，安装前需要登录有访问权限的 GitHub 账号。
+仓库已公开，查看和下载无需登录 GitHub。
+
+## 豆包下载与对话入口
+
+[直接下载完整技能包](https://github.com/daiziyi-2/pattern-revival/releases/latest/download/pattern-revival.zip)
+
+可把这个下载链接发给豆包。只有对话/生图入口时，使用压缩包内的
+`assets/handoff/通用对话入口.txt`，配合本次原型、单元或排列参考图开始任务。
+入口说明见[对话交接](skills/pattern-revival/references/chat-handoff.md)。
 
 ## 使用示例
 
