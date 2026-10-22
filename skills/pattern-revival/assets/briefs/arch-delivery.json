@@ -1,0 +1,31 @@
+{
+  "schema_version": 2,
+  "case_id": "arch-rule-verification",
+  "name": "连拱 · 几何规则验证",
+  "unit_name": "双线连拱几何单元",
+  "brand": "连拱纹样研究",
+  "poster_title": "连拱",
+  "poster_subtitle": "从建筑节奏，到日常图案",
+  "package_title": "连拱小礼",
+  "package_subtitle": "纹样应用概念",
+  "features": ["两条同心半圆拱线", "左右两根支柱", "顶部横梁", "柱顶短横台"],
+  "inputs": {"unit": "../units/arch-rule-demo.svg"},
+  "unit_color_roles": {"#b0392e": "轮廓带"},
+  "palette": {"轮廓带": "#B0392E", "负形与背景": "#F7F4ED", "朱红": "#B0392E", "园林青": "#366886", "纸面": "#F7F4ED", "文字": "#262626"},
+  "layout": {"tile": {"width": 120, "height": 100}, "placements": [{"x": 0, "y": 0}]},
+  "applications": {
+    "poster": {"width_mm": 210, "height_mm": 297, "repeat_width_mm": 30},
+    "package": {"width_mm": 160, "height_mm": 110, "depth_mm": 40, "depth_assumed": true, "repeat_width_mm": 30},
+    "magnet": {"width_mm": 50, "height_mm": 50, "mode": "connected_quadrants"}
+  },
+  "brand_assets": {},
+  "product_references": {},
+  "colorways": [
+    {"name": "砖红与米白", "foreground": "轮廓带", "background": "负形与背景"},
+    {"name": "石青与米白", "foreground": "园林青", "background": "负形与背景"}
+  ],
+  "copy": {"series": "连拱几何系列", "poster_footer": "双线拱形 · 横梁 · 支柱", "package_tagline": "让建筑节奏走进日常"},
+  "source_note": "根据本次连拱方向构造的人工几何规则验证单元；不冒称原建筑实拍提取，不确定文化地点或寓意。包装与磁贴尺寸为概念假设。",
+  "culture": {"status": "待核查", "claim": null},
+  "prompt_rules": {"unit": "保留两条同心半圆拱线、支柱和横梁，不改成单线彩虹或多层拱", "lineart": "保留两条拱线与矩形构件轮廓，不增加邻件或背景基线"}
+}

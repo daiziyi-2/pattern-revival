@@ -1,0 +1,112 @@
+{
+  "name": "凭窗 · 四瓣纹样应用",
+  "unit_name": "团队四瓣形窗格单元",
+  "brand": "朱家花园",
+  "poster_title": "凭窗",
+  "poster_subtitle": "把园林带进日常",
+  "package_title": "朱府食礼",
+  "package_subtitle": "建水朱家花园文创食品",
+  "features": [
+    "上下左右四个圆弧瓣",
+    "四瓣交接处的收口",
+    "轮廓带与中央负形",
+    "依参考母版保留细微不对称"
+  ],
+  "palette": {
+    "轮廓带": "#E978D1",
+    "负形与背景": "#7B42DD",
+    "朱红": "#E84A27",
+    "园林青": "#22C9B8",
+    "纸面": "#F7F3EC",
+    "文字": "#222222"
+  },
+  "repeat": "横纵重复块比例124.8:183.4；相邻两组位移62.4与91.7，即半块宽、半块高错位；四瓣形平铺参照图为视觉校准依据",
+  "sizes": {
+    "海报": "297×420毫米，竖版",
+    "包装": "240×164毫米，横版包装正面概念",
+    "磁贴": "四枚独立约50毫米见方的四瓣单元；单枚与组合均需展示"
+  },
+  "status": "尺寸为案例假设；文化寓意、实物工艺及用户测试待核查。图像生成用于候选，精确结构回到SVG母版。",
+  "schema_version": 2,
+  "case_id": "team-quatrefoil",
+  "inputs": {
+    "unit": "../units/quatrefoil-team-arrangement.svg",
+    "extracted_unit": "../units/quatrefoil-team-extracted.svg",
+    "source_reference": "../cases/quatrefoil-extraction.png"
+  },
+  "unit_color_roles": {
+    "#e483cf": "轮廓带"
+  },
+  "layout": {
+    "tile": {
+      "width": 124.8,
+      "height": 183.4
+    },
+    "placements": [
+      {
+        "x": 0,
+        "y": 0
+      },
+      {
+        "x": 62.4,
+        "y": 91.7
+      }
+    ]
+  },
+  "applications": {
+    "poster": {
+      "width_mm": 297,
+      "height_mm": 420,
+      "repeat_width_mm": 48
+    },
+    "package": {
+      "width_mm": 240,
+      "height_mm": 164,
+      "repeat_width_mm": 49
+    },
+    "magnet": {
+      "width_mm": 50,
+      "height_mm": 50
+    }
+  },
+  "brand_assets": {
+    "symbol": "../units/deer-brand-team.svg",
+    "foliage": "../units/bamboo-brand-team.svg"
+  },
+  "product_references": {
+    "bag": "../cases/bag-reference.jpg",
+    "packaging": "../cases/packaging-reference.png"
+  },
+  "colorways": [
+    {
+      "name": "粉紫",
+      "foreground": "轮廓带",
+      "background": "负形与背景"
+    },
+    {
+      "name": "园林青与粉",
+      "foreground": "轮廓带",
+      "background": "园林青"
+    },
+    {
+      "name": "朱红与园林青",
+      "foreground": "园林青",
+      "background": "朱红"
+    }
+  ],
+  "copy": {
+    "series": "四瓣纹样系列",
+    "poster_footer": "从一扇窗，到一份日常。",
+    "package_tagline": "一窗一纹 · 一城一味"
+  },
+  "source_note": "复用团队已提取和整理的实际路径，未执行照片自动提取；品牌鹿/竹资产独立于四瓣来源。",
+  "culture": {
+    "status": "待核查",
+    "claim": null
+  },
+  "prompt_rules": {
+    "extraction_target": "只处理已选中的窗格四瓣孔洞，按双轮廓提取参照整理，不选相邻六角花饰",
+    "lineart": "保留彩色轮廓带两侧边界，白底黑线；不要误作单线骨架",
+    "unit": "保持四瓣交接处的窄收口、轮廓带及中央负形"
+  }
+}

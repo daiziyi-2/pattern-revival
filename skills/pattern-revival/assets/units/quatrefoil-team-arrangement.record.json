@@ -1,0 +1,40 @@
+{
+  "operation": "export-unit",
+  "input": "纹样(2).ai",
+  "input_sha256": "f79746be71c05876b347b572693b84532fb9e7767adf276c7037902389794a3d",
+  "selection": {
+    "name": "四瓣形粉色成纹单元",
+    "source_file": "纹样(2).ai",
+    "source_sha256": "f79746be71c05876b347b572693b84532fb9e7767adf276c7037902389794a3d",
+    "page_index": 0,
+    "drawing_indices": [
+      269
+    ],
+    "target": "团队成纹中的规则化四瓣轮廓，描边宽度14个源文件单位",
+    "source_status": "团队提供设计过程文件；拍摄位置与使用条件待核查",
+    "selection_method": "人工查看整页原型与线稿后，按绘制路径位置选取；未自动从照片描摹"
+  },
+  "source_bounds": [
+    343.71148681640625,
+    255.40516662597656,
+    462.44049072265625,
+    372.2431640625
+  ],
+  "output_viewBox": [
+    334.71148681640625,
+    246.40516662597656,
+    136.72900390625,
+    134.83799743652344
+  ],
+  "source_identity": "从团队可编辑文件的 PDF 兼容内容导出实际路径",
+  "limitations": "不保留 Illustrator 专有图层、CMYK 色空间或编辑历史；SVG 为 RGB 可编辑路径",
+  "output": "assets/units/quatrefoil-team-arrangement.svg",
+  "output_sha256": "352af78f37fbc5a4999328cb59ddae5fe7339d4a1e61d365c53a0715c2e04868",
+  "geometry_sha256": "f2e4ef440f155df733b2698849d1669be12a013a0ff8566669d4cab0c3e04328",
+  "time_utc": "2026-10-11T11:19:19.163669+00:00",
+  "manual_checks": {
+    "source_relation": "未检查",
+    "seams": "未检查",
+    "application_size": "未检查"
+  }
+}

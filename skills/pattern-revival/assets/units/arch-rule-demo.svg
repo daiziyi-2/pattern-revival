@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 100" width="120" height="100">
+  <title>连拱几何规则验证单元；非建筑原型精确提取</title>
+  <g fill="none" stroke="#b0392e" stroke-width="3" stroke-linecap="butt" stroke-linejoin="miter">
+    <path d="M12 60 A48 48 0 0 1 108 60"/>
+    <path d="M20 60 A40 40 0 0 1 100 60"/>
+  </g>
+  <g fill="#b0392e">
+    <rect x="0" y="0" width="120" height="8"/>
+    <rect x="2" y="60" width="18" height="40"/>
+    <rect x="100" y="60" width="18" height="40"/>
+    <rect x="0" y="56" width="22" height="6"/>
+    <rect x="98" y="56" width="22" height="6"/>
+  </g>
+</svg>

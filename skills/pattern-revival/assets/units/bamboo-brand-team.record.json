@@ -1,0 +1,39 @@
+{
+  "operation": "export-unit",
+  "input": "朱家花园vi.pdf",
+  "input_sha256": "26470a47cd7e423113ea5426863a3ae6199f5887c5d0e3dc850e6988fe935a41",
+  "selection": {
+    "name": "团队VI竹叶图形",
+    "source_file": "朱家花园vi.pdf",
+    "source_sha256": "26470a47cd7e423113ea5426863a3ae6199f5887c5d0e3dc850e6988fe935a41",
+    "page_index": 6,
+    "drawing_indices": [
+      47
+    ],
+    "target": "团队品牌图形复用；不是四瓣原型的提取产物",
+    "source_status": "团队提供VI文件；使用条件按项目核对"
+  },
+  "source_bounds": [
+    584.1910400390625,
+    110.96197509765625,
+    788.3250122070312,
+    502.69195556640625
+  ],
+  "output_viewBox": [
+    582.1910400390625,
+    108.96197509765625,
+    208.13397216796875,
+    395.72998046875
+  ],
+  "source_identity": "从团队可编辑文件的 PDF 兼容内容导出实际路径",
+  "limitations": "不保留 Illustrator 专有图层、CMYK 色空间或编辑历史；SVG 为 RGB 可编辑路径",
+  "output": "assets/units/bamboo-brand-team.svg",
+  "output_sha256": "f66c8744fc8704bada55e69f4d2c1cd633c8edea2ba743a9633dac1fe21219a2",
+  "geometry_sha256": "557fdcec2fce2bdfb55d0bd94bae98f21d02bd97e876e075c2f0158c77186c34",
+  "time_utc": "2026-10-11T12:02:40.920473+00:00",
+  "manual_checks": {
+    "source_relation": "未检查",
+    "seams": "未检查",
+    "application_size": "未检查"
+  }
+}

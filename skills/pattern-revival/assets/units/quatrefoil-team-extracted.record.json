@@ -1,0 +1,41 @@
+{
+  "operation": "export-unit",
+  "input": "纹样提取(1).ai",
+  "input_sha256": "9b661926428428f81f34cbc1c9de92496db2110027fca9398551b069a75c2a73",
+  "selection": {
+    "name": "四瓣形双轮廓提取单元",
+    "source_file": "纹样提取(1).ai",
+    "source_sha256": "9b661926428428f81f34cbc1c9de92496db2110027fca9398551b069a75c2a73",
+    "page_index": 1,
+    "drawing_indices": [
+      26,
+      27
+    ],
+    "target": "窗格四瓣镂空，舍去周围花卉、木纹和阴影",
+    "source_status": "团队提供设计过程文件；拍摄位置与使用条件待核查",
+    "selection_method": "人工查看整页原型与线稿后，按绘制路径位置选取；未自动从照片描摹"
+  },
+  "source_bounds": [
+    230.99099731445312,
+    759.8646240234375,
+    317.3710021972656,
+    845.16162109375
+  ],
+  "output_viewBox": [
+    228.99099731445312,
+    757.8646240234375,
+    90.3800048828125,
+    89.2969970703125
+  ],
+  "source_identity": "从团队可编辑文件的 PDF 兼容内容导出实际路径",
+  "limitations": "不保留 Illustrator 专有图层、CMYK 色空间或编辑历史；SVG 为 RGB 可编辑路径",
+  "output": "assets/units/quatrefoil-team-extracted.svg",
+  "output_sha256": "774929e1650a3f2de816dc3b0cc13a8218fc020768eb327240752530079bd1f4",
+  "geometry_sha256": "4c9a483e7ba5af319592c150ba6ed545e1467e4c40b8ee870c320c1c610a80ed",
+  "time_utc": "2026-10-11T11:19:18.955034+00:00",
+  "manual_checks": {
+    "source_relation": "未检查",
+    "seams": "未检查",
+    "application_size": "未检查"
+  }
+}

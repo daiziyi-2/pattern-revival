@@ -1,0 +1,16 @@
+[
+  {
+    "file": "packaging-reference.png",
+    "source": "用户本轮提供的应用参考",
+    "sha256": "9dafd4918faec2eb1a02736cf177420b26d8fe10c47813b6f28804c51fb0842c",
+    "role": "版式/载体参考，不是本次新设计或实物产出",
+    "usage": "本项目测试与交接；外部发布需另核对使用条件"
+  },
+  {
+    "file": "bag-reference.jpg",
+    "source": "用户本轮提供的应用参考",
+    "sha256": "7f91d99128739d24e0abcc9c14735977d2ec61ffd67a81242e1afab51e5f3d82",
+    "role": "版式/载体参考，不是本次新设计或实物产出",
+    "usage": "本项目测试与交接；外部发布需另核对使用条件"
+  }
+]

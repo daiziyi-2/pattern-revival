@@ -1,0 +1,13 @@
+{
+  "name": "四瓣形双轮廓提取单元",
+  "source_file": "纹样提取(1).ai",
+  "source_sha256": "9b661926428428f81f34cbc1c9de92496db2110027fca9398551b069a75c2a73",
+  "page_index": 1,
+  "drawing_indices": [
+    26,
+    27
+  ],
+  "target": "窗格四瓣镂空，舍去周围花卉、木纹和阴影",
+  "source_status": "团队提供设计过程文件；拍摄位置与使用条件待核查",
+  "selection_method": "人工查看整页原型与线稿后，按绘制路径位置选取；未自动从照片描摹"
+}

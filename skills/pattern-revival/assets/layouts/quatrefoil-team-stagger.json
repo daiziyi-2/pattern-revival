@@ -1,0 +1,10 @@
+{
+  "case": "四瓣形团队单元错位排列v1",
+  "unit": "../units/quatrefoil-team-arrangement.svg",
+  "tile": {"width": 124.8, "height": 183.4},
+  "background": "#7960DE",
+  "placements": [{"x": 0, "y": 0}, {"x": 62.4, "y": 91.7}],
+  "source_status": "单元实际路径来自纹样(2).ai第1页路径269；色值来自PDF兼容内容的RGB转换，非印刷标准色",
+  "rule_status": "本次重新定义均匀周期；不宣称复制原成稿的全部位置或作者历史操作",
+  "source_relation": "同案例提取文件第2页路径26、27是双轮廓；成纹单元是已整理的粗描边，分别保留"
+}

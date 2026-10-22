@@ -1,0 +1,41 @@
+{
+  "operation": "export-unit",
+  "input": "朱家花园vi.pdf",
+  "input_sha256": "26470a47cd7e423113ea5426863a3ae6199f5887c5d0e3dc850e6988fe935a41",
+  "selection": {
+    "name": "团队VI鹿主题图形",
+    "source_file": "朱家花园vi.pdf",
+    "source_sha256": "26470a47cd7e423113ea5426863a3ae6199f5887c5d0e3dc850e6988fe935a41",
+    "page_index": 7,
+    "drawing_indices": [
+      3,
+      4,
+      5
+    ],
+    "target": "团队品牌图形复用；不是四瓣原型的提取产物",
+    "source_status": "团队提供VI文件；使用条件按项目核对"
+  },
+  "source_bounds": [
+    51.71989822387695,
+    179.09503173828125,
+    626.8680419921875,
+    658.14697265625
+  ],
+  "output_viewBox": [
+    49.71989822387695,
+    177.09503173828125,
+    579.1481437683105,
+    483.05194091796875
+  ],
+  "source_identity": "从团队可编辑文件的 PDF 兼容内容导出实际路径",
+  "limitations": "不保留 Illustrator 专有图层、CMYK 色空间或编辑历史；SVG 为 RGB 可编辑路径",
+  "output": "assets/units/deer-brand-team.svg",
+  "output_sha256": "462540d3ec9bb1996ec89bb35d0cef66613ccfa8ad32bbc7da2150d32d74857b",
+  "geometry_sha256": "2a58dc9a92a7ae9b56800dea89016e79eed0564bdabe1105fb303fb3f2a88de5",
+  "time_utc": "2026-10-11T12:02:40.880891+00:00",
+  "manual_checks": {
+    "source_relation": "未检查",
+    "seams": "未检查",
+    "application_size": "未检查"
+  }
+}

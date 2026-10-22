@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+  <title>四瓣规则示范单元</title>
+  <desc>本技能绘制的工具示范，不是团队原始路径或原物精确复原。</desc>
+  <path d="M30 30 A20 20 0 0 1 70 30 A20 20 0 0 1 70 70 A20 20 0 0 1 30 70 A20 20 0 0 1 30 30 Z" fill="none" stroke="#E978D1" stroke-width="8"/>
+</svg>

@@ -1,0 +1,105 @@
+{
+  "name": "仰檐 · 八角框应用",
+  "unit_name": "团队双层八角框单元",
+  "brand": "朱家花园",
+  "poster_title": "仰檐",
+  "poster_subtitle": "沿着窗棂，看见日常",
+  "package_title": "朱府食礼",
+  "package_subtitle": "建水朱家花园文创食品",
+  "features": [
+    "双层八角框",
+    "四个方形节点",
+    "内部交叉线",
+    "原路径各节点与边框的间距"
+  ],
+  "palette": {
+    "轮廓带": "#22C9B8",
+    "负形与背景": "#E84A27",
+    "朱红": "#E84A27",
+    "园林青": "#22C9B8",
+    "纸面": "#F7F3EC",
+    "文字": "#222222",
+    "紫色": "#7B42DD",
+    "粉色": "#E978D1"
+  },
+  "repeat": "横纵重复块比例124.8:183.4；相邻两组位移62.4与91.7，即半块宽、半块高错位；四瓣形平铺参照图为视觉校准依据",
+  "sizes": {
+    "海报": "297×420毫米，竖版",
+    "包装": "240×164毫米，横版包装正面概念",
+    "磁贴": "四枚独立约50毫米见方的四瓣单元；单枚与组合均需展示"
+  },
+  "status": "尺寸为案例假设；文化寓意、实物工艺及用户测试待核查。图像生成用于候选，精确结构回到SVG母版。",
+  "schema_version": 2,
+  "case_id": "team-octagon",
+  "inputs": {
+    "unit": "../units/octagon-team-arrangement.svg",
+    "source_reference": "../cases/octagon-extraction.png"
+  },
+  "unit_color_roles": {
+    "#3da79c": "轮廓带"
+  },
+  "layout": {
+    "tile": {
+      "width": 165,
+      "height": 175
+    },
+    "placements": [
+      {
+        "x": 0,
+        "y": 0
+      }
+    ]
+  },
+  "applications": {
+    "poster": {
+      "width_mm": 210,
+      "height_mm": 297,
+      "repeat_width_mm": 32
+    },
+    "package": {
+      "width_mm": 200,
+      "height_mm": 136,
+      "repeat_width_mm": 32
+    },
+    "magnet": {
+      "width_mm": 50,
+      "height_mm": 50
+    }
+  },
+  "brand_assets": {
+    "symbol": "../units/deer-brand-team.svg",
+    "foliage": "../units/bamboo-brand-team.svg"
+  },
+  "product_references": {
+    "bag": "../cases/bag-reference.jpg",
+    "packaging": "../cases/packaging-reference.png"
+  },
+  "colorways": [
+    {
+      "name": "青与朱红",
+      "foreground": "轮廓带",
+      "background": "负形与背景"
+    },
+    {
+      "name": "青与紫",
+      "foreground": "轮廓带",
+      "background": "紫色"
+    }
+  ],
+  "copy": {
+    "series": "八角框纹样系列",
+    "poster_footer": "一框一景，留住园林。",
+    "package_tagline": "沿窗拾味 · 入园寻礼"
+  },
+  "source_note": "从团队AI第1页路径73至80读取成纹单元；原型照片提取未重做，本次定义留有间隙的直排周期，不冒充原截图交错连缀。",
+  "culture": {
+    "status": "待核查",
+    "claim": null
+  },
+  "prompt_rules": {
+    "extraction_target": "按来源对照保留八角框、交叉线和四个方节点；不处理邻近花饰，现有单元线稿是成纹去色参照",
+    "lineart": "保留双层框、方节点和交叉线，保持原几何；不要填成实心八角形",
+    "unit": "保留八条边、双层框、四个方节点及交叉线，不添加参照外图形"
+  },
+  "poster_use_symbol": false
+}

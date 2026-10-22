@@ -1,0 +1,20 @@
+{
+  "case": "四瓣错位工具示范",
+  "unit": "../units/quatrefoil-rule-demo.svg",
+  "tile": {
+    "width": 100,
+    "height": 160
+  },
+  "background": "#7B42DD",
+  "placements": [
+    {
+      "x": 0,
+      "y": 0
+    },
+    {
+      "x": 50,
+      "y": 80
+    }
+  ],
+  "source_status": "依据团队构成方向绘制的规则示范，与原成稿精确尺寸不同"
+}

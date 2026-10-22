@@ -1,0 +1,4 @@
+interface:
+  display_name: "纹样提取与焕活"
+  short_description: "提取与排列纹样，交付品牌应用、文创效果及跨AI提示词参考包"
+  default_prompt: "使用 $pattern-revival，从我提供的纹样与应用参考继续，交付可编辑设计、预览和可在其他AI复制使用的完整提示词与参考图包。"

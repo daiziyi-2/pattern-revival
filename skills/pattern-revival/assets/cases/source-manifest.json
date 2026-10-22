@@ -1,0 +1,34 @@
+{
+  "origin": "用户在本会话提供的提取/排列对照与 VI 手册渲染",
+  "role": "设计参照，非可编辑源文件；不是文化来源证明",
+  "files": [
+    {
+      "asset": "quatrefoil-extraction.png",
+      "original_path": "codex-clipboard-81f31759-3a51-4f84-b964-7d6859fa01a0.png"
+    },
+    {
+      "asset": "meander-extraction.png",
+      "original_path": "codex-clipboard-4010c1e2-332e-444a-9169-40c0feb01244.png"
+    },
+    {
+      "asset": "octagon-extraction.png",
+      "original_path": "codex-clipboard-34cd0fc5-e011-4db6-b064-df0cc6016e5c.png"
+    },
+    {
+      "asset": "quatrefoil-arrangement.png",
+      "original_path": "codex-clipboard-005b983e-bbbc-4f7c-ab04-c82497cf889e.png"
+    },
+    {
+      "asset": "meander-arrangement.png",
+      "original_path": "codex-clipboard-01b13fab-4e18-4d58-a926-eaf482d9eec0.png"
+    },
+    {
+      "asset": "octagon-arrangement.png",
+      "original_path": "codex-clipboard-98a72d6d-c8c7-43fa-b6fe-c641f8effa11.png"
+    },
+    {
+      "asset": "vi-patterns-overview.jpg",
+      "original_path": "contact-02.jpg"
+    }
+  ]
+}

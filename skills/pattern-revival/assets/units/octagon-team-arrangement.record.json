@@ -1,0 +1,46 @@
+{
+  "operation": "export-unit",
+  "input": "纹样(2).ai",
+  "input_sha256": "f79746be71c05876b347b572693b84532fb9e7767adf276c7037902389794a3d",
+  "selection": {
+    "name": "团队八角框成纹单元",
+    "source_file": "纹样(2).ai",
+    "source_sha256": "f79746be71c05876b347b572693b84532fb9e7767adf276c7037902389794a3d",
+    "page_index": 0,
+    "drawing_indices": [
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80
+    ],
+    "target": "完整双层八角框、四个方节点与交叉线；选择未被页面外框裁切的内部单元",
+    "source_status": "团队人工成纹成果；文化名称和拍摄地点待核查"
+  },
+  "source_bounds": [
+    790.67529296875,
+    1934.475341796875,
+    939.0322875976562,
+    2092.935302734375
+  ],
+  "output_viewBox": [
+    785.17529296875,
+    1928.975341796875,
+    159.35699462890625,
+    169.4599609375
+  ],
+  "source_identity": "从团队可编辑文件的 PDF 兼容内容导出实际路径",
+  "limitations": "不保留 Illustrator 专有图层、CMYK 色空间或编辑历史；SVG 为 RGB 可编辑路径",
+  "output": "assets/units/octagon-team-arrangement.svg",
+  "output_sha256": "f707d291fe91af5384fc90b3290190d22606ac9e601e8705b7adcea20e5c3be8",
+  "geometry_sha256": "53cafb806ff64cf8c7930d5650ae58ffc1d1b22be3f112d98d679b7e929972b8",
+  "time_utc": "2026-10-12T07:22:45.895898+00:00",
+  "manual_checks": {
+    "source_relation": "未检查",
+    "seams": "未检查",
+    "application_size": "未检查"
+  }
+}
